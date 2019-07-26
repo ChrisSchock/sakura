@@ -1,0 +1,94 @@
+body {
+  background-color: #FFFFFF;
+}
+
+#main {
+  background-color: #FFFFFF;
+  margin: auto;
+  width: 720px;
+  font-family: 'Poor Story', 'comic sans ms', cursive;
+}
+
+@keyframes logo {
+  50% {color: #FFFFFF;}
+}
+
+#title {
+  margin: auto;
+  font-size: 2em;
+  color: #fc9cd8;
+  background-color: #FFFFFF;
+  text-align: center;
+  animation-name: logo;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+#img-div {
+  background-color: #fc9cd8;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+#img-heading {
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+}
+#img-caption {
+}
+
+@keyframes ready {
+  100% {
+    font-weight: bold;
+    color: #fc9cd8;
+    background-color: #FFFFFF;
+    text-align: center;
+    opacity: 0.8;
+  }
+}
+#img-div:hover {
+  animation-name: ready;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+
+#content {
+  font-size: 20px;
+  color: #B603FC;
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+#content2 {
+  text-align: left;
+}
+
+
+#footer {
+  text-align: center;
+  background-color: #fc9cd8;
+}
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+li:hover {
+  font-weight: bold;
+  color: #fc9cd8;
+  cursor: default;
+}
