@@ -5,8 +5,19 @@ body {
 #main {
   background-color: #FFFFFF;
   margin: auto;
-  width: 75%;
   font-family: 'Poor Story', 'Comic Sans MS', cursive;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #main {
+    width: 60%;
+  }
 }
 
 @keyframes title {
