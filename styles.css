@@ -82,6 +82,7 @@ body {
 
 #nav-bar {
   background-color: #fc9cd8;
+  color: #fc9cd8;
   width: 100%;
   animation-name: navi;
   animation-duration: 10s;
