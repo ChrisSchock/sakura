@@ -8,13 +8,13 @@ body {
   font-family: 'Poor Story', 'Comic Sans MS', cursive;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 899px) {
   main {
     width: 100%;
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 900px) {
   #main {
     width: 60%;
   }
