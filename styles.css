@@ -1,9 +1,9 @@
 body {
-  background-color: #FFFFFF;
+  background-color: #f7eaf5;
 }
 
 #main {
-  background-color: #FFFFFF;
+  background-color: #f7eaf5;
   margin: auto;
   font-family: 'Poor Story', 'Comic Sans MS', cursive;
 }
@@ -28,7 +28,7 @@ body {
   margin: auto;
   font-size: 2em;
   color: #fc9cd8;
-  background-color: #FFFFFF;
+  background-color: #f7eaf5;
   text-align: center;
   animation-name: title;
   animation-duration: 10s;
@@ -57,7 +57,7 @@ body {
 @keyframes ready {
   100% {
     color: #fc9cd8;
-    background-color: #FFFFFF;
+    background-color: #f7eaf5;
     text-align: center;
     opacity: 0.8;
   }
