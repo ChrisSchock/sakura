@@ -10,19 +10,20 @@ const word = [
 function showDetails() {
   let result = $('#showbox');
   result.children().remove();
-  let i = $(this).attr('id');
   console.log(i);
   result.append('<div class="twitch">Word: <strong>' + word[i][1] + '</strong></div>');
   result.append('<div class="twitch">Hiragana: <strong>' + word[i][2] + '</strong></div>');
   result.append('<div class="twitch">Meaning: <strong>' + word[i][3] + '</strong></div>');
-  result.append('<div class="twitch"><iframe src="' + word[i][4] + '" frameborder="0" allowfullscreen="true" height="378" width="100%"></iframe></div>') + '</div>';
+  result.append('<div class="twitch" id="3"><iframe src="' + word[i][4] + '" frameborder="0" allowfullscreen="true" height="378" width="100%"></iframe></div>') + '</div>';
 }
 
 let isOpen = false;
 
 // Call showDetails on click
 $('.getshowbox').on('click', function(event){
-  event.preventDefault();
+  i = $(this).attr('id');
+  console.log(i + 'here');
+
   showDetails();
 })
   
