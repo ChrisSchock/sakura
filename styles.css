@@ -62,12 +62,38 @@ body {
     opacity: 0.8;
   }
 }
+
 #img-div {
   animation-name: ready;
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-fill-mode: forwards;
+}
+
+@keyframes navi {
+  100% {
+    color: #fc9cd8;
+    background-color: #FFFFFF;
+    text-align: center;
+    opacity: 0.8;
+  }
+}
+
+#nav-bar {
+  background-color: #fc9cd8;
+  width: 100%;
+  animation-name: navi;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
+  animation-direction: inherit;
+  animation-fill-mode: forwards;
+}
+
+#nav-bar a {
+  font-size: 1em;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
 #content {
