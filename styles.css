@@ -9,14 +9,24 @@ body {
 }
 
 @media only screen and (max-width: 899px) {
-  main {
+  #main {
     width: 100%;
+  }
+  #nav-bar a {
+    font-size: 1em;
+    padding-right: 5px;
+    padding-left: 5px;
   }
 }
 
 @media only screen and (min-width: 900px) {
   #main {
     width: 60%;
+  }
+  #nav-bar a {
+    font-size: 1em;
+    padding-right: 50px;
+    padding-left: 50px;
   }
 }
 
@@ -91,11 +101,6 @@ body {
   animation-fill-mode: forwards;
 }
 
-#nav-bar a {
-  font-size: 1em;
-  padding-right: 50px;
-  padding-left: 50px;
-}
 
 #content {
   font-size: 20px;
