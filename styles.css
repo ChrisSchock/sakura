@@ -44,6 +44,7 @@ body {
   50% {color: #FFFFFF;}
 }
 
+
 #title {
   margin: auto;
   font-size: 2em;
@@ -130,13 +131,21 @@ body {
   font-size: 18px;
 }
 
-p {
+#content-welcome p {
   text-align: justify;
   margin: 0px;
 }
 
 #content-box {
+  text-align: center;
+}
+
+#content-box p {
   text-align: left;
+  display: inline-block;
+  width: 250px;
+  padding: 10px;
+  margin: 0px;
 }
 
 #placeholder {
@@ -153,8 +162,13 @@ p {
   color: #FFFFFF;
 }
 
+.some-space {
+  height: 50px;
+}
+
 ul {
   list-style: none;
+  padding: 0px;
 }
 
 li {

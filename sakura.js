@@ -3,9 +3,11 @@ $(document).ready(function() {
 // Array of Words: Number, Word, Link
 const word = [
   [0, "食べ歩き", "たべあるき", "Eat and Walk", "https://clips.twitch.tv/embed?clip=BlithePuzzledPidgeonBudStar"],
-  [1, "私", "わたし", "I (Standard)", "https://clips.twitch.tv/embed?clip=BlithePuzzledPidgeonBudStar"],
-  [2, "俺", "おれ", "I (used by M, manly)", "https://clips.twitch.tv/embed?clip=BlithePuzzledPidgeonBudStar"],
-  [3, "僕", "ぼく", "I (used by M, cute)", "https://clips.twitch.tv/embed?clip=BlithePuzzledPidgeonBudStar"]
+  [1, "君かわいいね", "きみかわいいね", "You are so cute!", "https://clips.twitch.tv/embed?clip=ExpensiveSuperGarbageFeelsBadMan"],
+  [2, "君かわうぃね", "きみかわうぃね", "You are so cute! + (For Players)", "https://clips.twitch.tv/embed?clip=ObeseElatedNightingaleKippa"],
+  [3, "私", "わたし", "I (Standard)", "https://clips.twitch.tv/embed?clip=BlithePuzzledPidgeonBudStar"],
+  [4, "俺", "おれ", "I (used by M, manly)", "https://clips.twitch.tv/embed?clip=BlithePuzzledPidgeonBudStar"],
+  [5, "僕", "ぼく", "I (used by M, cute)", "https://clips.twitch.tv/embed?clip=BlithePuzzledPidgeonBudStar"]
 ];
 
 // Show the User the requested Clip and list explanations
