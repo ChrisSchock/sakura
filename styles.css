@@ -17,6 +17,11 @@ body {
     padding-right: 5px;
     padding-left: 5px;
   }
+  #footer a {
+    font-size: 1em;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
 }
 
 @media only screen and (min-width: 900px) {
@@ -24,6 +29,11 @@ body {
     width: 60%;
   }
   #nav-bar a {
+    font-size: 1em;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  #footer a {
     font-size: 1em;
     padding-right: 50px;
     padding-left: 50px;
@@ -113,7 +123,19 @@ body {
   color: #fc9cd8;
 }
 
-#content2 {
+
+#content-welcome {
+  text-align: center;
+  color: #ad6492;
+  font-size: 18px;
+}
+
+p {
+  text-align: justify;
+  margin: 0px;
+}
+
+#content-box {
   text-align: left;
 }
 
@@ -140,7 +162,7 @@ li {
 }
 
 a {
-  font-size: 16px;
+  font-size: 18px;
   text-decoration: none;
 }
 
