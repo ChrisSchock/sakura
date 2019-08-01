@@ -7,9 +7,9 @@ const word = [
   [2, "君かわうぃぃね", "きみかわうぃぃね", "You are so cute! + (For Players)", "https://clips.twitch.tv/embed?clip=ObeseElatedNightingaleKippa"],
   [3, "愛してる", "あいしてる", "I love you (heavy)", "https://clips.twitch.tv/embed?clip=GoodMuddySnoodHumbleLife"],
   [4, "大好き", "だいすき", "I love you / I like you a lot!", "https://clips.twitch.tv/embed?clip=ProductiveLitigiousRuffKappa"],
-  [5, "私", "わたし", "I (Standard)", "https://clips.twitch.tv/embed?clip=BlithePuzzledPidgeonBudStar"],
-  [6, "俺", "おれ", "I (used by M, manly)", "https://clips.twitch.tv/embed?clip=BlithePuzzledPidgeonBudStar"],
-  [7, "僕", "ぼく", "I (used by M, cute)", "https://clips.twitch.tv/embed?clip=BlithePuzzledPidgeonBudStar"]
+  [5, "私", "わたし", "I, me (common)", "https://clips.twitch.tv/embed?clip=DaintyRichFriseeNinjaGrumpy"],
+  [6, "俺", "おれ", "I, me (used by males, manly)", "https://clips.twitch.tv/embed?clip=RelentlessCoyFlamingoRedCoat"],
+  [7, "僕", "ぼく", "I, me (used by males, cute)", "https://clips.twitch.tv/embed?clip=GorgeousFurryOwlYouWHY"]
 ];
 
 // Show the User the requested Clip and list explanations
@@ -35,8 +35,4 @@ $('.getshowbox').on('click', function(event){
   
 // End of the Script
 });
-
-
-
-
 
