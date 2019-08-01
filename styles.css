@@ -115,7 +115,8 @@ body {
 
 #content {
   font-size: 20px;
-  color: #0930bd;
+/*  color: #0930bd;*/
+  color: #ad6492;
   display: grid;
   grid-template-columns: 100%;
 }
