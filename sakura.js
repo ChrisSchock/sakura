@@ -3,7 +3,9 @@ $(document).ready(function() {
 // Array of Words: Number, Word, Link
 const word = [
   [0, "食べ歩き", "たべあるき", "Eat and Walk", "https://clips.twitch.tv/embed?clip=BlithePuzzledPidgeonBudStar"],
-  [1, "kanji", "hirgana", "meaning", "link"]
+  [1, "私", "わたし", "I (Standard)", "https://clips.twitch.tv/embed?clip=BlithePuzzledPidgeonBudStar"],
+  [2, "俺", "おれ", "I (used by M, manly)", "https://clips.twitch.tv/embed?clip=BlithePuzzledPidgeonBudStar"],
+  [3, "僕", "ぼく", "I (used by M, cute)", "https://clips.twitch.tv/embed?clip=BlithePuzzledPidgeonBudStar"]
 ];
 
 // Show the User the requested Clip and list explanations
@@ -29,3 +31,8 @@ $('.getshowbox').on('click', function(event){
   
 // End of the Script
 });
+
+
+
+
+
