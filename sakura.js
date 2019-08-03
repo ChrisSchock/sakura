@@ -8,9 +8,10 @@ const word = [
   [3, "愛してる", "あいしてる", "I love you (heavy)", "https://clips.twitch.tv/embed?clip=GoodMuddySnoodHumbleLife"],
   [4, "大好き", "だいすき", "I love you / I like you a lot!", "https://clips.twitch.tv/embed?clip=ProductiveLitigiousRuffKappa"],
   [5, "ヤバイ", "やばい", "Oh my God! (can be in a good or bad context) terrible / amazing", "https://clips.twitch.tv/embed?clip=ElatedBoldMetalTinyFace"],
-  [6, "私", "わたし", "I, me (common)", "https://clips.twitch.tv/embed?clip=DaintyRichFriseeNinjaGrumpy"],
-  [7, "俺", "おれ", "I, me (used by males, manly)", "https://clips.twitch.tv/embed?clip=RelentlessCoyFlamingoRedCoat"],
-  [8, "僕", "ぼく", "I, me (used by males, cute)", "https://clips.twitch.tv/embed?clip=GorgeousFurryOwlYouWHY"]
+  [6, "怖い", "こわい", "scary", "https://clips.twitch.tv/embed?clip=SpotlessFunBoarPeteZaroll"],
+  [7, "私", "わたし", "I, me (common)", "https://clips.twitch.tv/embed?clip=DaintyRichFriseeNinjaGrumpy"],
+  [8, "俺", "おれ", "I, me (used by males, manly)", "https://clips.twitch.tv/embed?clip=RelentlessCoyFlamingoRedCoat"],
+  [9, "僕", "ぼく", "I, me (used by males, cute)", "https://clips.twitch.tv/embed?clip=GorgeousFurryOwlYouWHY"]
 ];
 
 // Show the User the requested Clip and list explanations
@@ -36,4 +37,5 @@ $('.getshowbox').on('click', function(event){
   
 // End of the Script
 });
+
 
