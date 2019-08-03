@@ -4,7 +4,7 @@ $(document).ready(function() {
 const word = [
   [0, "食べ歩き", "たべあるき", "Eat and Walk", "https://clips.twitch.tv/embed?clip=BlithePuzzledPidgeonBudStar"],
   [1, "君かわいいね", "きみかわいいね", "You are so cute!", "https://clips.twitch.tv/embed?clip=ExpensiveSuperGarbageFeelsBadMan"],
-  [2, "君かわうぃぃね", "きみかわうぃぃね", "You are so cute! + (For Players)", "https://clips.twitch.tv/embed?clip=ObeseElatedNightingaleKippa"],
+  [2, "君かわうぃぃね", "きみかわうぃぃね", "You are so cute! (Funny / Playful)", "https://clips.twitch.tv/embed?clip=ObeseElatedNightingaleKippa"],
   [3, "愛してる", "あいしてる", "I love you (heavy)", "https://clips.twitch.tv/embed?clip=GoodMuddySnoodHumbleLife"],
   [4, "大好き", "だいすき", "I love you / I like you a lot!", "https://clips.twitch.tv/embed?clip=ProductiveLitigiousRuffKappa"],
   [5, "ヤバイ", "やばい", "Oh my God! (can be in a good or bad context) terrible / amazing", "https://clips.twitch.tv/embed?clip=ElatedBoldMetalTinyFace"],
