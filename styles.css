@@ -156,6 +156,11 @@ body {
   margin: 0px;
 }
 
+.twitch {
+	text-align: left;
+	color: hotpink;
+}
+
 #placeholder {
   height: 100px;
 }
