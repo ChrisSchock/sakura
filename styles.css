@@ -95,7 +95,6 @@ body {
 @keyframes navi {
   100% {
     color: #fc9cd8;
-    text-shadow: 1px 1px #000000;
     background-color: #FFFFFF;
     text-align: center;
     opacity: 0.8;
@@ -116,6 +115,11 @@ body {
 #nav-bar a {
   color: #fc9cd8;
   font-weight: bold;
+}
+
+#nav-bar a:hover {
+  font-weight: bold;
+  text-shadow: 1px 1px #000000;
 }
 
 
@@ -161,8 +165,6 @@ body {
 	color: hotpink;
 	padding: 5px;
 }
-
-
 
 #placeholder {
   height: 100px;
