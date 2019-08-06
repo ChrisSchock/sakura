@@ -191,8 +191,7 @@ ul {
 }
 
 li {
-  padding-bottom: 10px;
-  text-shadow: 1px 1px #000000;
+	padding-bottom: 10px;
 }
 
 a {
@@ -205,6 +204,7 @@ a:hover {
 }
 
 li:hover {
+  text-shadow: 1px 1px #000000;
   font-weight: bold;
   color: #fc9cd8;
   cursor: default;
