@@ -95,6 +95,7 @@ body {
 @keyframes navi {
   100% {
     color: #fc9cd8;
+    text-shadow: 1px 1px #000000;
     background-color: #FFFFFF;
     text-align: center;
     opacity: 0.8;
@@ -103,13 +104,18 @@ body {
 
 #nav-bar {
   background-color: #fc9cd8;
-  color: #fc9cd8;
+  color: #FFFFFF;
   width: 100%;
   animation-name: navi;
   animation-duration: 10s;
   animation-iteration-count: 1;
   animation-direction: inherit;
   animation-fill-mode: forwards;
+}
+
+#nav-bar a {
+  color: #fc9cd8;
+  font-weight: bold;
 }
 
 
