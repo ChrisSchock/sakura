@@ -18,7 +18,6 @@ body {
     padding-left: 5px;
   }
   #footer a {
-    font-size: 1em;
     padding-right: 5px;
     padding-left: 5px;
   }
@@ -122,6 +121,19 @@ body {
   text-shadow: 1px 1px #000000;
 }
 
+#socials {
+	text-align: right;
+}
+
+#socials a {
+  color: #fc9cd8;
+  font-weight: bold;
+}
+
+#socials a:hover {
+  font-weight: bold;
+  text-shadow: 1px 1px #000000;
+}
 
 #content {
   font-size: 20px;
