@@ -156,10 +156,13 @@ body {
   margin: 0px;
 }
 
-.twitch {
+.kanji {
 	text-align: left;
 	color: hotpink;
+	padding: 5px;
 }
+
+
 
 #placeholder {
   height: 100px;
