@@ -42,5 +42,3 @@ $('.getshowbox').on('click', function(event){
 });
 
 
-
-<iframe src frameborder="0" allowfullscreen="true" height="378" width="620"></iframe>
