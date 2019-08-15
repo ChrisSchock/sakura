@@ -13,7 +13,8 @@ const word = [
   [8, "私", "わたし", "I, me (common)", "https://clips.twitch.tv/embed?clip=DaintyRichFriseeNinjaGrumpy"],
   [9, "俺", "おれ", "I, me (used by males, manly)", "https://clips.twitch.tv/embed?clip=RelentlessCoyFlamingoRedCoat"],
   [10, "僕", "ぼく", "I, me (used by males, cute)", "https://clips.twitch.tv/embed?clip=GorgeousFurryOwlYouWHY"],
-  [11, "酒屋", "さかや", "Liquor Store", "https://clips.twitch.tv/embed?clip=FragileEntertainingTurtleDoggo"]
+  [11, "酒屋", "さかや", "Liquor Store", "https://clips.twitch.tv/embed?clip=FragileEntertainingTurtleDoggo"],
+  [12, "パンツ何色？", "パンツなにいろ", "What is the color of your pants?", "https://clips.twitch.tv/embed?clip=ConsiderateCreativePelicanYee"]
 ];
 
 // Show the User the requested Clip and list explanations
@@ -41,3 +42,5 @@ $('.getshowbox').on('click', function(event){
 });
 
 
+
+<iframe src frameborder="0" allowfullscreen="true" height="378" width="620"></iframe>
